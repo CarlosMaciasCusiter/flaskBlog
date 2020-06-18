@@ -1,7 +1,7 @@
 from flaskBlog import db, login_manager
 from datetime import datetime
 from flask_login import UserMixin
-
+# Testing git push messed up rn
 
 @login_manager.user_loader
 def load_user(user_id):

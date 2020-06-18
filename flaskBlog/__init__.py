@@ -3,6 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 
+# Testing a commit to gitHub
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'afd72b27b0265f1cba93a92592bbf86f'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
